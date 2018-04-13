@@ -4,11 +4,16 @@
   "description": "redux",
   "main": "index.js",
   "scripts": {
+    "start": "babel reducer.js --watch --out-file reducer-compiled.js ", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
   }
 }
